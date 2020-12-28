@@ -1,0 +1,4 @@
+dev-libs/libressl
+sys-kernel/gentoo-sources ~amd64
+sys-kernel/linux-headers ~amd64
+x11-drivers/nvidia-drivers ~amd64
