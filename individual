@@ -2,3 +2,4 @@ sys-apps/net-tools hostname
 app-admin/doas persist
 media-libs/imlib2 jpeg png
 sys-apps/util-linux logger
+www-client/firefox geckodriver gmp-autoupdate 
