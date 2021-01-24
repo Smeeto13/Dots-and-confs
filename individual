@@ -10,3 +10,11 @@ media-libs/vulkan-layers abi_x86_64 abi_x86_32
 media-libs/vulkan-loader abi_x86_64 abi_x86_32
 dev-util/vulkan-tools abi_x86_64 abi_x86_32
 app-office/libreoffice base firebird
+dev-db/sqlite -icu
+dev-lang/python -sqlite -bluetooth
+net-wireless/bluez -obex
+kde-plasma/plasma-meta browser-integration display-manager kwallet sddm smart
+kde-apps/kdeadmin-meta cron
+kde-apps/kdecore-meta share thumbnail
+kde-apps/kdenetwork-meta webengine
+kde-apps/kdeutils-meta 7zip lrz rar
