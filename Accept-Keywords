@@ -7,13 +7,6 @@ www-client/firefox ~amd64
 dev-libs/nss ~amd64
 app-editors/notepadqq ~amd64
 app-emulation/qemu ~amd64
-# required by games-util/steam-launcher (argument)
-=games-util/steam-launcher-1.0.0.67 ~amd64
-# required by games-util/steam-launcher-1.0.0.67::steam-overlay[udev,joystick]
-# required by games-util/steam-launcher (argument)
-=games-util/game-device-udev-rules-20201209 ~amd64
-# required by games-util/gamemode (argument)
-=games-util/gamemode-1.6 ~amd64
 games-util/lutris ~amd64
 media-video/obs-studio ~amd64
 app-officeext/languagetool ~amd64
