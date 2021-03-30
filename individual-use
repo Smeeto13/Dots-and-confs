@@ -26,3 +26,4 @@ net-dns/avahi autoipd
 kde-apps/spectacle annotate kipi
 media-sound/spotify systray
 media-video/obs-studio speex
+sys-boot/grub:2 device-mapper
