@@ -1,9 +1,10 @@
 sys-apps/net-tools hostname
 net-misc/dhcp client
-net-misc/networkmanager dhclient
+net-misc/networkmanager lto -ppp
 sys-apps/util-linux logger
 app-admin/doas persist
 www-client/firefox geckodriver gmp-autoupdate
+www-client/librewolf geckodriver gmp-autoupdate
 net-misc/openssh security-key
 app-emulation/qemu usbredir slirp pin-upstream-blobs plugins
 app-emulation/libvirt vepa virt-network
@@ -17,7 +18,7 @@ dev-lang/python -sqlite -bluetooth
 net-wireless/bluez -obex
 kde-plasma/plasma-meta browser-integration kwallet smart -display-manager -sddm
 kde-apps/kdeadmin-meta cron
-kde-apps/kdecore-meta share thumbnail
+kde-apps/kdecore-meta share thumbnail -webengine
 kde-apps/kdenetwork-meta webengine
 kde-apps/kdeutils-meta 7zip lrz rar
 net-p2p/transmission -gtk
@@ -27,3 +28,6 @@ kde-apps/spectacle annotate kipi
 media-sound/spotify systray
 media-video/obs-studio speex
 sys-boot/grub:2 device-mapper
+media-libs/libsndfile minimal
+media-video/vlc x265
+www-client/librewolf lto
