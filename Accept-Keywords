@@ -1,8 +1,5 @@
 sys-kernel/gentoo-sources ~amd64
 sys-kernel/linux-headers ~amd64
-x11-drivers/nvidia-drivers ~amd64
-media-video/nvidia-video-codec ~amd64
-dev-util/nvidia-cuda-toolkit ~amd64
 www-client/firefox ~amd64
 dev-libs/nss ~amd64
 app-editors/notepadqq ~amd64
@@ -41,3 +38,4 @@ dev-util/rocm-smi ~amd64
 games-util/gamemode ~amd64
 dev-libs/inih ~amd64
 media-libs/dav1d ~amd64
+www-client/librewolf ~amd64
