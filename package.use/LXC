@@ -1,0 +1,5 @@
+app-containers/lxc verify-sig lto
+app-emulation/libvirt lxc
+# required by app-containers/lxc-5.0.1::gentoo[caps,tools]
+# required by app-containers/lxc (argument)
+>=sys-libs/libcap-2.65 static-libs
