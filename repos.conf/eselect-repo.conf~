@@ -22,7 +22,13 @@ location = /var/db/repos/guru
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/guru.git
 
+
 [Personal-Repo]
 location = /var/db/repos/Personal-Repo
 sync-type = git
 sync-uri = https://github.com/OliverSmeeton/Personal-Portage-Repo.git
+
+[nest]
+location = /var/db/repos/nest
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/nest.git
